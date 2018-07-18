@@ -1,18 +1,25 @@
+---
 title: USWDS Sandbox
-baseurl: ""
-url: ""
-
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+baseurl: ''
+url: ''
 sass:
   sass_dir: _sass/
   load_paths:
-    - node_modules/
+  - node_modules/
   style: compressed
-
 exclude:
-  - assets/js/src
-  - Gemfile*
-  - node_modules
-  - package*.json
-  - README.md
-  - vendor
-  - webpack.config.js
+- assets/js/src
+- Gemfile*
+- node_modules
+- package*.json
+- README.md
+- vendor
+- webpack.config.js
